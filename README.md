@@ -1,6 +1,6 @@
 ***
 
-## stock-option-viewer
+## enhanced-stock-option
 A simple stock-option-viewer for quick referencing option price at a certain time.
 ***
 We can all go to the website of Charles-Schwab, Interactive Broker, TD Ameritrade, Merrill-Edge or any broker from any bank to get the option price. Robinhood even has its own option table. However, these tools show us the information, not what we really need: loss and profit at a given price. What if we need it on the go and be able to calculate the loss/profit percentage with a few clicks?

@@ -1,0 +1,1809 @@
+Enter stock symbol: ['contractSize']
+['contractSize', 'lastPrice']
+['contractSize', 'lastPrice', 'percentChange']
+['contractSize', 'lastPrice', 'percentChange', 'volume']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol', 'impliedVolatility']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol', 'impliedVolatility', 'expiration']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol', 'impliedVolatility', 'expiration', 'ask']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol', 'impliedVolatility', 'expiration', 'ask', 'change']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol', 'impliedVolatility', 'expiration', 'ask', 'change', 'strike']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol', 'impliedVolatility', 'expiration', 'ask', 'change', 'strike', 'bid']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol', 'impliedVolatility', 'expiration', 'ask', 'change', 'strike', 'bid', 'lastTradeDate']
+['contractSize', 'lastPrice', 'percentChange', 'volume', 'openInterest', 'inTheMoney', 'contractSymbol', 'impliedVolatility', 'expiration', 'ask', 'change', 'strike', 'bid', 'lastTradeDate', 'currency']
+{'contractSize': 'REGULAR', 'lastPrice': 7.3, 'percentChange': 0.0, 'volume': 2, 'openInterest': 1, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00085000', 'impliedVolatility': 3.9003908740234374, 'expiration': 1525392000, 'ask': 17.5, 'change': 0.0, 'strike': 85.0, 'bid': 12.8, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 5.0, 'percentChange': 0.0, 'volume': 25, 'openInterest': 29, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00090000', 'impliedVolatility': 2.5683629541015627, 'expiration': 1525392000, 'ask': 11.8, 'change': 0.0, 'strike': 90.0, 'bid': 7.7, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 4.6, 'percentChange': 0.0, 'volume': 20, 'openInterest': 112, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00091000', 'impliedVolatility': 2.4062539843749997, 'expiration': 1525392000, 'ask': 10.8, 'change': 0.0, 'strike': 91.0, 'bid': 6.7, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 2.0, 'percentChange': 0.0, 'volume': 10, 'openInterest': 77, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00092000', 'impliedVolatility': 2.2441450146484367, 'expiration': 1525392000, 'ask': 9.8, 'change': 0.0, 'strike': 92.0, 'bid': 5.7, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 4.45, 'percentChange': 0.0, 'volume': 1165, 'openInterest': 1323, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00093000', 'impliedVolatility': 1.951172119140625, 'expiration': 1525392000, 'ask': 8.6, 'change': 0.0, 'strike': 93.0, 'bid': 4.7, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 5.8, 'percentChange': 866.6667, 'volume': 1562, 'openInterest': 1374, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00094000', 'impliedVolatility': 1.2734411328124997, 'expiration': 1525392000, 'ask': 7.8, 'change': 5.2000003, 'strike': 94.0, 'bid': 5.9, 'lastTradeDate': 1525462867, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 3.2, 'percentChange': 433.3333, 'volume': 351, 'openInterest': 1983, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00095000', 'impliedVolatility': 0.93164130859375, 'expiration': 1525392000, 'ask': 5.6, 'change': 2.6, 'strike': 95.0, 'bid': 4.0, 'lastTradeDate': 1525453881, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 2.65, 'percentChange': 0.0, 'volume': 87, 'openInterest': 431, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00096000', 'impliedVolatility': 1.626954990234375, 'expiration': 1525392000, 'ask': 5.9, 'change': 0.0, 'strike': 96.0, 'bid': 1.7, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 2.25, 'percentChange': 0.0, 'volume': 111, 'openInterest': 5, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00097000', 'impliedVolatility': 1.2832067089843748, 'expiration': 1525392000, 'ask': 4.6, 'change': 0.0, 'strike': 97.0, 'bid': 1.0, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 1.9, 'percentChange': 0.0, 'volume': 216, 'openInterest': 215, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00098000', 'impliedVolatility': 0.500005, 'expiration': 1525392000, 'ask': 2.55, 'change': 0.0, 'strike': 98.0, 'bid': 0.0, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.9, 'percentChange': 0.0, 'volume': 273, 'openInterest': 119, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00099000', 'impliedVolatility': 0.3242255078124999, 'expiration': 1525392000, 'ask': 1.5, 'change': 0.0, 'strike': 99.0, 'bid': 0.05, 'lastTradeDate': 1525474631, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.25, 'percentChange': 24.999998, 'volume': 106, 'openInterest': 180, 'inTheMoney': True, 'contractSymbol': 'NXPI180504C00100000', 'impliedVolatility': 0.16309430664062502, 'expiration': 1525392000, 'ask': 0.5, 'change': 0.049999997, 'strike': 100.0, 'bid': 0.1, 'lastTradeDate': 1525463997, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.1, 'percentChange': 0.0, 'volume': 160, 'openInterest': 1303, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00101000', 'impliedVolatility': 0.1289149609375, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 101.0, 'bid': 0.0, 'lastTradeDate': 1525474630, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': -66.66667, 'volume': 308, 'openInterest': 333, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00102000', 'impliedVolatility': 0.23828886718749998, 'expiration': 1525392000, 'ask': 0.05, 'change': -0.10000001, 'strike': 102.0, 'bid': 0.0, 'lastTradeDate': 1525455253, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': -66.66667, 'volume': 30, 'openInterest': 1190, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00103000', 'impliedVolatility': 0.335944140625, 'expiration': 1525392000, 'ask': 0.05, 'change': -0.10000001, 'strike': 103.0, 'bid': 0.0, 'lastTradeDate': 1525455109, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': -50.0, 'volume': 101, 'openInterest': 1959, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00104000', 'impliedVolatility': 0.500005, 'expiration': 1525392000, 'ask': 0.1, 'change': -0.05, 'strike': 104.0, 'bid': 0.0, 'lastTradeDate': 1525463788, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': -70.588234, 'volume': 43, 'openInterest': 1893, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00105000', 'impliedVolatility': 0.51562984375, 'expiration': 1525392000, 'ask': 0.05, 'change': -0.120000005, 'strike': 105.0, 'bid': 0.0, 'lastTradeDate': 1525462747, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 25, 'openInterest': 878, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00106000', 'impliedVolatility': 0.5312546875, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 106.0, 'bid': 0.0, 'lastTradeDate': 1525452758, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.4, 'percentChange': 0.0, 'volume': 26, 'openInterest': 607, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00107000', 'impliedVolatility': 0.6093789062500001, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 107.0, 'bid': 0.0, 'lastTradeDate': 1525291159, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.46, 'percentChange': 0.0, 'volume': 11, 'openInterest': 337, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00108000', 'impliedVolatility': 0.6796907031250001, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 108.0, 'bid': 0.0, 'lastTradeDate': 1525374545, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.15, 'percentChange': 0.0, 'volume': 1, 'openInterest': 223, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00109000', 'impliedVolatility': 0.7500025, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 109.0, 'bid': 0.0, 'lastTradeDate': 1525440651, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 31, 'openInterest': 374, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00110000', 'impliedVolatility': 0.8203142968749999, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 110.0, 'bid': 0.0, 'lastTradeDate': 1525454714, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.15, 'percentChange': 0.0, 'volume': 14, 'openInterest': 42, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00111000', 'impliedVolatility': 0.8906260937499999, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 111.0, 'bid': 0.0, 'lastTradeDate': 1525276032, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 20, 'openInterest': 38, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00112000', 'impliedVolatility': 0.9531254687499999, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 112.0, 'bid': 0.0, 'lastTradeDate': 1525373637, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.2, 'percentChange': 0.0, 'volume': 6, 'openInterest': 14, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00113000', 'impliedVolatility': 2.1210984472656245, 'expiration': 1525392000, 'ask': 1.7, 'change': 0.0, 'strike': 113.0, 'bid': 0.0, 'lastTradeDate': 1525181616, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.15, 'percentChange': 0.0, 'volume': 53, 'openInterest': 103, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00114000', 'impliedVolatility': 1.0859420703125, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 114.0, 'bid': 0.0, 'lastTradeDate': 1525112034, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 19, 'openInterest': 141, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00115000', 'impliedVolatility': 1.1484417578125, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 115.0, 'bid': 0.0, 'lastTradeDate': 1525275880, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 4, 'openInterest': 6, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00116000', 'impliedVolatility': 2.7216828833007813, 'expiration': 1525392000, 'ask': 2.45, 'change': 0.0, 'strike': 116.0, 'bid': 0.0, 'lastTradeDate': 1525276114, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.01, 'percentChange': 0.0, 'volume': 4, 'openInterest': 3, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00118000', 'impliedVolatility': 2.205082612304687, 'expiration': 1525392000, 'ask': 0.9, 'change': 0.0, 'strike': 118.0, 'bid': 0.0, 'lastTradeDate': 1524147771, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.15, 'percentChange': 0.0, 'volume': 6, 'openInterest': 0, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00119000', 'impliedVolatility': 1.6953140234375002, 'expiration': 1525392000, 'ask': 0.15, 'change': 0.0, 'strike': 119.0, 'bid': 0.05, 'lastTradeDate': 1524849682, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.1, 'percentChange': 0.0, 'volume': 140, 'openInterest': 57, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00120000', 'impliedVolatility': 1.6875015625, 'expiration': 1525392000, 'ask': 0.15, 'change': 0.0, 'strike': 120.0, 'bid': 0.0, 'lastTradeDate': 1524849323, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 6, 'openInterest': 16, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00121000', 'impliedVolatility': 1.75000125, 'expiration': 1525392000, 'ask': 0.1, 'change': 0.0, 'strike': 121.0, 'bid': 0.05, 'lastTradeDate': 1524847982, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 6, 'openInterest': 12, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00122000', 'impliedVolatility': 1.5625021874999998, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 122.0, 'bid': 0.0, 'lastTradeDate': 1524585199, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 16, 'openInterest': 13, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00123000', 'impliedVolatility': 1.875000625, 'expiration': 1525392000, 'ask': 0.1, 'change': 0.0, 'strike': 123.0, 'bid': 0.05, 'lastTradeDate': 1524848184, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 29, 'openInterest': 0, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00124000', 'impliedVolatility': 1.8281258593749998, 'expiration': 1525392000, 'ask': 0.1, 'change': 0.0, 'strike': 124.0, 'bid': 0.0, 'lastTradeDate': 1524849682, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 10, 'openInterest': 0, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00125000', 'impliedVolatility': 1.734376328125, 'expiration': 1525392000, 'ask': 0.05, 'change': 0.0, 'strike': 125.0, 'bid': 0.0, 'lastTradeDate': 1524849682, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 50, 'openInterest': 50, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00128000', 'impliedVolatility': 2.6562533593750004, 'expiration': 1525392000, 'ask': 0.5, 'change': 0.0, 'strike': 128.0, 'bid': 0.0, 'lastTradeDate': 1524283106, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 9, 'openInterest': 0, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00129000', 'impliedVolatility': 2.6679720800781253, 'expiration': 1525392000, 'ask': 0.45, 'change': 0.0, 'strike': 129.0, 'bid': 0.0, 'lastTradeDate': 1524887483, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+
+{'contractSize': 'REGULAR', 'lastPrice': 0.05, 'percentChange': 0.0, 'volume': 50, 'openInterest': 50, 'inTheMoney': False, 'contractSymbol': 'NXPI180504C00130000', 'impliedVolatility': 2.7890655273437504, 'expiration': 1525392000, 'ask': 0.5, 'change': 0.0, 'strike': 130.0, 'bid': 0.0, 'lastTradeDate': 1524283107, 'currency': 'USD'}
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'bool'>
+
+
+<class 'str'> <class 'str'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'float'>
+
+
+<class 'str'> <class 'int'>
+
+
+<class 'str'> <class 'str'>
+
+

@@ -73,11 +73,11 @@ wr.writeheader()
 #append the values to an array, then append the array to files.
 wr = csv.writer(f,quoting=csv.QUOTE_NONNUMERIC)
 for option in callOptions:
-    print(option)
+    #print(option)
     row = []
-    print(type(row))
+    #print(type(row))
     for key, value in option.items():
-        print(type(key), type(value))
+        #print(type(key), type(value))
         row.append(value)
     wr.writerow(row)
 

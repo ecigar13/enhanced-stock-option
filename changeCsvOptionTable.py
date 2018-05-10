@@ -1,13 +1,27 @@
 import csv
 from operator import itemgetter
 
+# import csv file
+# do calculation
+# give me top 3 return options
+# plot the graph
+
 inFile = open("callNXPI.csv", "r+")
 read = csv.reader(inFile)
 write = csv.writer(inFile)
 
 # read everything including header row
 head = next(read)
-strikePrice = 127.5
+
+def getStrikePrice():
+    strikePrice = 127.5
+    temp = input("Enter strike price (default is 127.5): ")
+    if temp:
+        return temp
+    else:
+        return strikePrice
+
+strikePrice = getStrikePrice()
 listOfLists = [r for r in read]
 
 # insert merger close price and its header
@@ -39,7 +53,7 @@ for list in listOfLists:
         continue
 
     profitAfterOptionPrice = profitPerOption - optionAskPrice
-    returnMultiple = profitAfterOptionPrice/optionAskPrice
+    returnMultiple = profitAfterOptionPrice / optionAskPrice
 
     list.append(profitAfterOptionPrice)
     list.append(returnMultiple)
@@ -66,10 +80,4 @@ for list in listOfLists:
     writer.writerow(list)
 inFile.close()
 # print(listOfLists)
-# import csv file
 
-# do calculation
-
-# give me top 3 return options
-
-# plot the graph

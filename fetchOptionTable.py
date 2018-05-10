@@ -87,6 +87,14 @@ def main():
     # extract the date list from JSON file
     availableDatesList = extractExpirationDateList(jsonDateList)
 
+    stockInfo = jsonDateList["optionChain"]["result"][0]["quote"]
+    showStockInfo = 0
+    showStockInfo = input("Should I show stock info? (default is no): ")
+
+    if(showStockInfo):
+        for key, value in stockInfo.items():
+            print('{:30}'.format(str(key)) + " : " + '{:>15}'.format(str(value)))
+
     # pick a date from the list and add it to the previous URL
     timestamp = pickDate(availableDatesList)
     linkWDate = setExpirationDate(linkNoDate, timestamp)

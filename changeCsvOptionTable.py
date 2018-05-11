@@ -1,4 +1,7 @@
+#!/usr/bin/python3
+
 import csv
+import sys
 from operator import itemgetter
 
 # import csv file
@@ -6,78 +9,71 @@ from operator import itemgetter
 # give me top 3 return options
 # plot the graph
 
-inFile = open("callNXPI.csv", "r+")
-read = csv.reader(inFile)
-write = csv.writer(inFile)
 
-# read everything including header row
-head = next(read)
+def main(inStrikePrice):
+    inFile = open("callNXPI.csv", "r+")
+    read = csv.reader(inFile)
+ 
 
-def getStrikePrice():
-    strikePrice = 127.5
-    temp = input("Enter strike price (default is 127.5): ")
-    if temp:
-        return temp
-    else:
-        return strikePrice
+    # read everything including header row
+    head = next(read)
 
-strikePrice = getStrikePrice()
-listOfLists = [r for r in read]
 
-# insert merger close price and its header
-head.append("targetPrice")
-for list in listOfLists:
-    list.append(strikePrice)
+    strikePrice = inStrikePrice
+    listOfLists = [r for r in read]
 
-inFile.close()
+    # insert merger close price and its header
+    head.append("targetPrice")
+    for list in listOfLists:
+        list.append(strikePrice)
 
-# get index of all the things I need using the header
-maxMultiple = 0
-curStrikePrice = 0
-indexOfStrikePrice = head.index("strike")
-indexOfAskPrice = head.index("ask")
-indexOfTargetPrice = head.index("targetPrice")
+    inFile.close()
 
-# calculate profit
+    # get index of all the things I need using the header
+    indexOfStrikePrice = head.index("strike")
+    indexOfAskPrice = head.index("ask")
+    indexOfTargetPrice = head.index("targetPrice")
 
-for list in listOfLists:
-    strikePrice = float(list[indexOfStrikePrice])
-    # print("Strike price " + str(strikePrice))
-    profitPerOption = float(list[indexOfTargetPrice]) - strikePrice
+    # calculate profit
 
-    # option price = ask price
-    optionAskPrice = float(list[indexOfAskPrice])
+    for list in listOfLists:
+        strikePrice = float(list[indexOfStrikePrice])
+        # print("Strike price " + str(strikePrice))
+        profitPerOption = float(list[indexOfTargetPrice]) - strikePrice
 
-    # division by 0
-    if(optionAskPrice == 0):
-        continue
+        # option price = ask price
+        optionAskPrice = float(list[indexOfAskPrice])
 
-    profitAfterOptionPrice = profitPerOption - optionAskPrice
-    returnMultiple = profitAfterOptionPrice / optionAskPrice
+        # division by 0
+        if(optionAskPrice == 0):
+            continue
 
-    list.append(profitAfterOptionPrice)
-    list.append(returnMultiple)
+        profitAfterOptionPrice = profitPerOption - optionAskPrice
+        returnMultiple = profitAfterOptionPrice / optionAskPrice
 
-headerReturnMultiple = "returnMultiple"
-head.append("profit")
-head.append(headerReturnMultiple)
+        list.append(profitAfterOptionPrice)
+        list.append(returnMultiple)
 
-# sort based on returnMultiple
-listOfLists.sort(key=itemgetter(
-    head.index(headerReturnMultiple)), reverse=True)
+    headerReturnMultiple = "returnMultiple"
+    head.append("profit")
+    head.append(headerReturnMultiple)
 
-print("Top 5 return options: ")
-for i in range(0, 5):
-    print("Multiple: \t\t" +
-          str(listOfLists[i][head.index(headerReturnMultiple)]))
-    print("Strike price: \t\t" + str(listOfLists[i][head.index("strike")]))
-    print("Profit: \t\t" + str(listOfLists[i][head.index("profit")]))
+    # sort based on returnMultiple
+    listOfLists.sort(key=itemgetter(
+        head.index(headerReturnMultiple)), reverse=True)
 
-inFile = open("csvCalculatedOption.csv", "w")
-writer = csv.writer(inFile)
-writer.writerow(head)
-for list in listOfLists:
-    writer.writerow(list)
-inFile.close()
-# print(listOfLists)
+    print("Top 5 return options: ")
+    for i in range(0, 5):
+        print("Multiple: \t\t" +
+            str(listOfLists[i][head.index(headerReturnMultiple)]))
+        print("Strike price: \t\t" + str(listOfLists[i][head.index("strike")]))
+        print("Profit: \t\t" + str(listOfLists[i][head.index("profit")]))
+
+    inFile = open("csvCalculatedOption.csv", "w")
+    writer = csv.writer(inFile)
+    writer.writerow(head)
+    for list in listOfLists:
+        writer.writerow(list)
+    inFile.close()
+    # print(listOfLists)
 

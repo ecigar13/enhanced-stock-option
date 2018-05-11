@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import json
 import urllib.request
 import urllib
@@ -5,6 +7,7 @@ import csv
 import time
 import datetime
 import requests
+import sys
 
 '''
 How the yahoo link behave: it needs a stock option after the next link.
@@ -16,16 +19,22 @@ most recent expiration date, usually the coming Friday.)
 If the date in the link is invalid (not among the dates that appear in the JSON file,
 then the call and put option is empty ([]). This will cause the second half of this .py
 file to fail. I will deal with it later.
+
+
+To use this, use command: python3 fetchOptionTable.py <stock symbol> <y or n> <number range 1 to max of date list>
 '''
 
 # Get stock symbol, NXPI by default
 
 
-def setStockName(optionUrl):
+def setStockName(optionUrl, ticker):
     stockName = "NXPI"
-    temp = input("Enter stock symbol (default is NXPI): ")
-    if(len(temp)):
+
+    temp = ticker
+    if(len(temp) != 0):
         stockName = temp
+    else:
+        print("No arg, default is NXPI")
     newOptionLink = optionUrl + stockName
     # print(newOptionLink)
     return newOptionLink
@@ -54,7 +63,7 @@ def extractExpirationDateList(jsonDateList):
 # takes in a list of timestamp (int) and return a timestamp (int). The result can be appended to the URL and then sent to Yahoo
 
 
-def pickDate(availableDatesList):
+def pickDate(availableDatesList, choice):
     index = 0
     for timestamp in availableDatesList:
         printString = str(index) + ":\t" + datetime.datetime.fromtimestamp(
@@ -63,10 +72,12 @@ def pickDate(availableDatesList):
         print(printString)
 
     dateChoice = 0
-    temp = input(
-        "Choose a number from the list (default is 0, the closest option date): ")
+    temp = choice
     if(temp):
         dateChoice = temp
+        print("Choose a number from the list (default is 0, the closest option date): " + str(temp))
+    else:
+        print("No date chosen. Default is 0. (The closest expiration date)")
     return availableDatesList[int(dateChoice)]
 
 
@@ -77,26 +88,29 @@ def setExpirationDate(linkNoDate, timestamp):
     return linkNoDate + "?date=" + str(timestamp)
 
 
-def main():
+def main(ticker, choice, dateChoice):
 
     optionUrl = "https://query1.finance.yahoo.com/v7/finance/options/"
 
     # feed the URL with stock name to get available dates for the option
-    linkNoDate = setStockName(optionUrl)
+    linkNoDate = setStockName(optionUrl, ticker)
     jsonDateList = getJsonGetMethod(linkNoDate)
     # extract the date list from JSON file
     availableDatesList = extractExpirationDateList(jsonDateList)
 
     stockInfo = jsonDateList["optionChain"]["result"][0]["quote"]
-    showStockInfo = 0
-    showStockInfo = input("Should I show stock info? (default is no): ")
+    showStockInfo = choice
+    print("Should I show stock info? (default is no): " + str(showStockInfo))
 
-    if(showStockInfo):
+    if(showStockInfo == 'y'):
         for key, value in stockInfo.items():
-            print('{:30}'.format(str(key)) + " : " + '{:>15}'.format(str(value)))
+            print('{:30}'.format(str(key)) + " : " +
+                  '{:>15}'.format(str(value)))
+    else:
+        print("Elected not to show stock info.")
 
     # pick a date from the list and add it to the previous URL
-    timestamp = pickDate(availableDatesList)
+    timestamp = pickDate(availableDatesList, dateChoice)
     linkWDate = setExpirationDate(linkNoDate, timestamp)
 
     # get JSON object from the link. Type is dict
@@ -137,5 +151,3 @@ def main():
 
     # this writes to csv file, but for some reasons I don't know, the order of the columns are messed up
 
-
-main()

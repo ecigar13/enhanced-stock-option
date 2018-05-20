@@ -1,3 +1,4 @@
+
 ***
 
 ## enhanced-stock-option
@@ -9,12 +10,16 @@ This program is intended to:
 
  - Get stock ticker and retrieve a JSON object of available options.
  - Put it in a CSV file so I can further manipulate it (add functions, charts, calculate loss/profit)
-
-The file NXPI.xlsx is what I want to get to in the end.
+ - The file NXPI.xlsx a template of final result.
 
 ***
-I chose Python because at this point, data science is a booming field and Python happens to be the language of choice for non-programmer data scientists. It means there are a lot of libraries to crunch numbers and convert it into csv, xlsx and to analyze the data. I'm still a programmer at heart and I might convert this into a full software that can run across platforms as time permit. An easy start makes a good start.
+I chose Python because at this point, data science is a booming field and Python happens to be the language of choice for non-programmer data scientists. It means there are a lot of libraries to crunch numbers and convert it into csv, xlsx and to analyze the data. 
+
+Note: 
+
+ - Yahoo may end support for this link at any time, so this might not work in the future.
+ - The Yahoo links behaves strangely during weekend and does not show all available options. This might be because maintenance is being performed. Therefore, the program is unreliable during weekends.
 ***
-P.S. Notice I put loss before profit.
+
 
 

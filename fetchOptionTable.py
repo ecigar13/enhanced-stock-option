@@ -36,7 +36,6 @@ def setStockName(optionUrl, ticker):
     else:
         print("No arg, default is NXPI")
     newOptionLink = optionUrl + stockName
-    # print(newOptionLink)
     return newOptionLink
 
 
@@ -45,7 +44,6 @@ def setStockName(optionUrl, ticker):
 
 def getJsonGetMethod(urlLink):
     jsonFile = requests.get(urlLink).json()
-    # print(jsonFile)
     return jsonFile
 
 
@@ -53,7 +51,6 @@ def getJsonLoadMethod(urlLink):
     response = response = urllib.request.urlopen(urlLink)
     stringResponse = response.read().decode('utf-8')
     jsonFile = json.loads(stringResponse)
-    # print(jsonFile)
     return jsonFile
 
 
@@ -65,6 +62,7 @@ def extractExpirationDateList(jsonDateList):
 
 def pickDate(availableDatesList, choice):
     index = 0
+     
     for timestamp in availableDatesList:
         printString = str(index) + ":\t" + datetime.datetime.fromtimestamp(
             int(timestamp)).strftime("%A %B %d \t%Y %H %Z")
@@ -72,7 +70,7 @@ def pickDate(availableDatesList, choice):
         print(printString)
 
     dateChoice = 0
-    temp = choice
+    temp = int(choice)
     if(temp):
         dateChoice = temp
         print("Choose a number from the list (default is 0, the closest option date): " + str(temp))
@@ -88,7 +86,7 @@ def setExpirationDate(linkNoDate, timestamp):
     return linkNoDate + "?date=" + str(timestamp)
 
 
-def main(ticker, choice, dateChoice):
+def main(ticker, callsOrPuts, showStockQuoteBoolean, dateChoice):
 
     optionUrl = "https://query1.finance.yahoo.com/v7/finance/options/"
 
@@ -99,12 +97,12 @@ def main(ticker, choice, dateChoice):
     availableDatesList = extractExpirationDateList(jsonDateList)
 
     stockInfo = jsonDateList["optionChain"]["result"][0]["quote"]
-    showStockInfo = choice
+    showStockInfo = showStockQuoteBoolean
     print("Should I show stock info? (default is no): " + str(showStockInfo))
 
     if(showStockInfo == 'y'):
         for key, value in stockInfo.items():
-            print('{:30}'.format(str(key)) + " : " +
+            print('{:>30}'.format(str(key)) + " : " +
                   '{:>15}'.format(str(value)))
     else:
         print("Elected not to show stock info.")
@@ -117,7 +115,7 @@ def main(ticker, choice, dateChoice):
     jsonWDate = getJsonLoadMethod(linkWDate)
 
     # extract the list of options from the JSON object
-    callOptions = jsonWDate["optionChain"]["result"][0]["options"][0]["calls"]
+    callOptions = jsonWDate["optionChain"]["result"][0]["options"][0][str(callsOrPuts)]
     if not callOptions:
         print("JSON is empty. Please try another option date")
         exit()
@@ -151,3 +149,5 @@ def main(ticker, choice, dateChoice):
 
     # this writes to csv file, but for some reasons I don't know, the order of the columns are messed up
 
+if __name__ == "__main__":
+    main("NXPI", "calls", True, 0)

@@ -26,6 +26,8 @@ def calculateProfit(indexOfStrikePrice, indexOfAskPrice, indexOfTargetPrice, opt
 
         # division by 0
         if(optionAskPrice == 0):
+            list.append(0)
+            list.append(0)
             continue
 
         profitAfterOptionPrice = profitPerOption - optionAskPrice
@@ -64,10 +66,13 @@ def main(targetPrice, callsOrPuts):
     headerReturnMultiple = "returnMultiple"
     head.append("profit")
     head.append(headerReturnMultiple)
-
+    #for list in listOfLists:
+    #    print(list)
+    #print(head)
     # sort based on returnMultiple
     listOfLists.sort(key=itemgetter(
-        head.index(headerReturnMultiple)), reverse=True)
+        head.index(headerReturnMultiple)), 
+        reverse=True)
 
     print("Top return options: ")
     optionsToPrint = 3

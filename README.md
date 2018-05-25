@@ -1,7 +1,8 @@
-
+For now, only use yahooOptionsPython. The Yahoo API is not reliable because no one maintained it for several years. When I started this project, it is still working, but the result becomes increasinly unreliable. I often get different JSON for the same API call or non-existent option price. I'm trying to switch to using Ally's API
 ***
 
 ## enhanced-stock-option
+
 A simple stock-option-viewer for quick referencing option price at a certain time.
 ***
 We can all go to the website of Charles-Schwab, Interactive Broker, TD Ameritrade, Merrill-Edge or any broker from any bank to get the option price. Robinhood even has its own option table. However, these tools show us the information, not what we really need: loss and profit at a given price. What if we need it on the go and be able to calculate the loss/profit percentage with a few clicks?
@@ -18,7 +19,7 @@ I chose Python because at this point, data science is a booming field and Python
 Note: 
 
  - Yahoo may end support for this link at any time, so this might not work in the future.
- - The Yahoo links behaves strangely during weekend and does not show all available options. This might be because maintenance is being performed. Therefore, the program is unreliable during weekends.
+ - The Yahoo links behaves strangely during weekend and does not show all available options. This might be because stock data is unavailable during weekends. Therefore, the program is unreliable during weekends.
 ***
 
 
